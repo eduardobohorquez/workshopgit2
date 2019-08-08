@@ -96,14 +96,35 @@ diff, gitk, reflog, reset
 
 ## Recovering the File:
 
-```python
+```
+18. List the commits to recover the file: 
+  
+  git reflog
+  
+  And Identify the commit id before the file was deleted
+```
+```
+19. Make a "reset" to that commit id: 
 
-18. List the commits to recover the file: git reflog
-19. Identify the commit id before the file was deleted
-20. Make a "reset" to that commit id: git reset --hard "COMMIT_ID"
-21. Update the references: git update-ref refs/heads/new_branch2 origin/new_branch2
-22. Add the file: git add my_file.txt
-23. Commit your changes: git commit -m "my recovery file message"
-24. Upload your changes: git push origin new_branch2
+  git reset --hard "COMMIT_ID"
+```
+```
+20. Update the references: 
+  
+  git update-ref refs/heads/new_branch2 origin/new_branch2
+```
+```
+21. Add the file: 
 
+  git add my_file.txt
+```
+```
+22. Commit your changes: 
+
+  git commit -m "my recovery file message"
+```
+```
+23. Upload your changes: 
+
+  git push origin new_branch2
 ```
