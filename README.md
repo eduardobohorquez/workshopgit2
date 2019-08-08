@@ -12,9 +12,18 @@ diff, gitk, reflog, reset
 
 ```python
 
-1. Clone this repo: git clone https://github.com/eduardobohorquez/workshopgit2.git
-2. cd workshopgit2
-3. Create a new branch: git checkout -b new_branch
+1. Clone this repo: 
+git clone https://github.com/eduardobohorquez/workshopgit2.git
+```
+```
+2. Go to Folder:
+cd workshopgit2
+```
+```
+3. Create a new branch: 
+git checkout -b new_branch
+```
+```
 4. Create a new file: echo "any message" >> my_file.txt
 5. Add your changes: git add *
 6. Commit your changes: git commit -m "my message"
