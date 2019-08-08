@@ -3,7 +3,7 @@
 ## Commands:
 
 ```bash
-diff, gitk, reflog, reset
+diff, gitk, reflog, update-ref, reset
 ```
 
 ## Steps:
