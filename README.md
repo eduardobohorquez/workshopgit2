@@ -1,7 +1,5 @@
 # Workshopgit2
 
-Foobar is a Python library for dealing with word pluralization.
-
 ## Commands:
 
 ```bash
@@ -10,14 +8,13 @@ diff, gitk, reflog, reset
 
 ## Steps:
 
-```python
-
+```
 1. Clone this repo: 
-git clone https://github.com/eduardobohorquez/workshopgit2.git
+  git clone https://github.com/eduardobohorquez/workshopgit2.git
 ```
 ```
 2. Go to Folder:
-cd workshopgit2
+  cd workshopgit2
 ```
 ```
 3. Create a new branch: 
