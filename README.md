@@ -11,6 +11,7 @@ diff, gitk, reflog, reset
 ## Steps:
 
 ```python
+
 01. Clone this repo: git clone https://github.com/eduardobohorquez/workshopgit2.git
 02. cd workshopgit2
 03. Create a new branch: git checkout -b new_branch
@@ -33,6 +34,7 @@ diff, gitk, reflog, reset
 ## Recovering the File:
 
 ```python
+
 18. List the commits to recover the file: git reflog
 19. Identify the commit id before the file was deleted
 20. Make a "reset" to that commit id: git reset --hard {COMMIT_ID}
@@ -40,4 +42,5 @@ diff, gitk, reflog, reset
 22. Add the file: git add my_file.txt
 23. Commit your changes: git commit -m "my recovery file message"
 24. Upload your changes: git push origin new_branch2
+
 ```
