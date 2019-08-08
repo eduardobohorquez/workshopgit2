@@ -20,23 +20,78 @@ diff, gitk, reflog, reset
 ```
 ```
 3. Create a new branch: 
-git checkout -b new_branch
+
+  git checkout -b new_branch
 ```
 ```
-4. Create a new file: echo "any message" >> my_file.txt
-5. Add your changes: git add *
-6. Commit your changes: git commit -m "my message"
-7. Verify your changes: git status
-8. Upload your changes: git push origin new_branch
-9. Verify the differences between master and new_branch: git diff master new_branch
-10. Use the git GUI to see the history: gitk
-11. Create a new branch from the branch created: git checkout -b new_branch2
-12. Verify the files in branch: ls
-13. Delete the file previously created: rm my_file.txt
-14. Add your changes: git add my_file.txt
-15. Verify your changes: git status
-16. Commit your changes: git commit -m "delete the file"
-17. Upload your changes: git push origin new_branch2
+4. Create a new file: 
+  
+  echo "any message" >> my_file.txt
+```
+```
+5. Add your changes: 
+  
+  git add *
+```
+```
+6. Commit your changes: 
+  
+  git commit -m "my message"
+```
+```
+7. Verify your changes: 
+  
+  git status
+```
+```
+8. Upload your changes: 
+  
+  git push origin new_branch
+```
+```
+9. Verify the differences between master and new_branch: 
+ 
+ git diff master new_branch
+```
+```
+10. Use the git GUI to see the history: 
+  
+  gitk
+```
+```
+11. Create a new branch from the branch created: 
+  
+  git checkout -b new_branch2
+```
+```
+12. Verify the files in branch: 
+  
+  ls
+```
+```
+13. Delete the file previously created: 
+  
+  rm my_file.txt
+```
+```
+14. Add your changes: 
+
+  git add my_file.txt
+```
+```
+15. Verify your changes: 
+
+  git status
+```
+```
+16. Commit your changes: 
+ 
+  git commit -m "delete the file"
+```  
+```
+17. Upload your changes: 
+  
+  git push origin new_branch2
 ```
 
 ## Recovering the File:
