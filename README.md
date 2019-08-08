@@ -10,10 +10,12 @@ diff, gitk, reflog, reset
 
 ```
 1. Clone this repo: 
+
   git clone https://github.com/eduardobohorquez/workshopgit2.git
 ```
 ```
 2. Go to Folder:
+
   cd workshopgit2
 ```
 ```
