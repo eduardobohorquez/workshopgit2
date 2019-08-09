@@ -116,7 +116,7 @@ diff, gitk, reflog, update-ref, reset
 ```
 21. Add the file: 
 
-  git add my_file.txt
+  git add .
 ```
 ```
 22. Commit your changes: 
