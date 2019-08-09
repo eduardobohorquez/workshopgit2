@@ -76,7 +76,7 @@ diff, gitk, reflog, update-ref, reset
 ```
 14. Add your changes: 
 
-  git add my_file.txt
+  git add .
 ```
 ```
 15. Verify your changes: 
