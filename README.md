@@ -106,7 +106,7 @@ diff, gitk, reflog, update-ref, reset
 ```
 19. Make a "reset" to that commit id: 
 
-  git reset --hard "COMMIT_ID"
+  git reset --hard COMMIT_ID
 ```
 ```
 20. Update the references: 
